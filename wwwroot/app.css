@@ -1,0 +1,729 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    margin-top:10px;
+}
+
+.Maincontainer {
+    width: 448px;
+    background: white;
+    height: 607px;
+    padding: 0px 6px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.VenuesInformation {
+    width: 448px;
+    height: 108px;
+    opacity: 1;
+    padding: 16px 0;
+    gap: 16px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.VenuesContainer {
+    width: 416px;
+    height: 108px;
+    opacity: 1;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderMain {
+    width: 416px;
+    height: 40px;
+    justify-content: space-between;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderSec {
+    width: 416px;
+    height: 60px;
+    opacity: 1;
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    width: 416px;
+    height: 40px;
+    justify-content: space-between;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.Frame25 {
+    width: 95px;
+    height: 28px;
+    opacity: 1;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.TextStack {
+    width: 95px;
+    height: 28px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.Text {
+    width: 95px;
+    height: 28px;
+    opacity: 1;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.branch-name {
+    font-family: Nunito;
+    font-weight: 900;
+    color: #000000;
+    vertical-align: middle;
+}
+
+
+.Description {
+    width: 124px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.DescriptionText {
+    font-family: Global/Font family/secondary type;
+    font-weight: 400;
+/*    font-style: Regular;
+    font-size: Font Size/body;
+    leading-trim: NONE;
+    line-height: Global/Space/600;
+    letter-spacing: Letter-spacing/body;*/
+    vertical-align: middle;
+}
+
+
+.Neutral_Button_Icon {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.Neutral_Button {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    background: #CCCCCC33;
+    align-items:center;
+    justify-content:center;
+}
+
+.Neutral_Content {
+    width: 16px;
+    height: 40px;
+    min-height: 40px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.FbxIcon {
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.Info {
+    width: 416px;
+    height: 60px;
+    opacity: 1;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Address {
+    width: 416px;
+    height: 16px;
+    opacity: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Center {
+    width: 416px;
+    height: 16px;
+    opacity: 1;
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Status {
+    width: 47px;
+    height: 16px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.Label1 {
+    width: 11px;
+    height: 16px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.Label2 {
+    width: 350px;
+    height: 16px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Status_indicator {
+    width: 10px;
+    height: 16px;
+    opacity: 1;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Status_Label {
+    width: 37px;
+    height: 16px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.circle {
+    width: 4px;
+    height: 4px;
+    opacity: 1;
+    background: #7CDB6B;
+}
+
+.Status_Label_Title {
+    width: 37px;
+    height: 16px;
+    opacity: 1;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Title_open {
+    font-family: Nunito Sans;
+    font-weight: 700;
+/*    font-style: Bold;
+    font-size: Font Size/details;
+    leading-trim: NONE;
+    line-height: Line-height/details;
+    letter-spacing: Letter-spacing/details;*/
+    vertical-align: middle;
+    color: #7CDB6B;
+}
+
+.Status_Label_Description {
+    width: 96px;
+    height: 20px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.Label2_title {
+    width: 501px;
+    height: 16px;
+    opacity: 1;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Østerågade {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    /*    font-style: Regular;
+    font-size: Font Size/details;
+    leading-trim: NONE;
+    line-height: Line-height/details;
+    letter-spacing: Letter-spacing/details;*/
+    vertical-align: middle;
+    background: #00000099;
+    
+}
+
+.Info_Buttons {
+    width: 416px;
+    height: 32px;
+    opacity: 1;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Info_Button1 {
+    width: 151px;
+    height: 32px;
+    opacity: 1;
+    /*    padding-right: Spacing/3x;
+    padding-left: Spacing/3x;
+    border-top-left-radius: Global/Radius/Button/top-left;
+    border-top-right-radius: Global/Radius/Button/top-right;
+    border-bottom-right-radius: Global/Radius/Button/bottom-right;
+    border-bottom-left-radius: Global/Radius/Button/bottom-left;*/
+    background: #D6EAD833;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Info_Button2 {
+    width: 190px;
+    height: 32px;
+    angle: 0 deg;
+    opacity: 1;
+    /*    padding-right: Spacing/3x;
+    padding-left: Spacing/3x;
+    border-top-left-radius: Global/Radius/Button/top-left;
+    border-top-right-radius: Global/Radius/Button/top-right;
+    border-bottom-right-radius: Global/Radius/Button/bottom-right;
+    border-bottom-left-radius: Global/Radius/Button/bottom-left;*/
+    display: flex;
+    flex-direction: row;
+    background: #D6EAD833;
+    background-blend-mode: multiply;
+}
+
+
+.Info_Button1_Content {
+    width: 135px;
+    height: 32px;
+    min-height: 32px;
+    opacity: 1;
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Leading_visuals {
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.Info_Button1_Content_Label {
+    width: 115px;
+    height: 16px;
+    opacity: 1;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Number {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    /*    font-style: Regular;
+    font-size: Font Size/details;
+    leading-trim: NONE;
+    line-height: Line-height/details;
+    letter-spacing: Letter-spacing/details;*/
+    vertical-align: middle;
+    background: #00000099;
+}
+
+.Gmail {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    /*    font-style: Regular;
+    font-size: Font Size/details;
+    leading-trim: NONE;
+    line-height: Line-height/details;
+    letter-spacing: Letter-spacing/details;*/
+    vertical-align: middle;
+    color: #00000099;
+}
+
+.Info_Button2_Content {
+    width: 174px;
+    height: 32px;
+    min-height: 32px;
+    opacity: 1;
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Leading_visuals2 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+}
+
+.Info_Button1_Content_Label2 {
+    width: 154px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+    gap: 8px;
+}
+
+
+
+.Info_Button3 {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+    /*    padding-right: Spacing/3x;
+    padding-left: Spacing/3x;
+    border-top-left-radius: Global/Radius/Button/top-left;
+    border-top-right-radius: Global/Radius/Button/top-right;
+    border-bottom-right-radius: Global/Radius/Button/bottom-right;
+    border-bottom-left-radius: Global/Radius/Button/bottom-left;*/
+}
+
+.Info_Button3_Content {
+    width: 16px;
+    height: 32px;
+    min-height: 32px;
+    opacity: 1;
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Leading_visuals3 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.media_carousel {
+    width: 448px;
+    height: 227px;
+    opacity: 1;
+    background: #FFFFFF;
+    gap: 16px;
+    padding: 16px 7px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Media {
+    width: 346px;
+    height: 195px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/images/main_pic.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: rotate(0);
+    border-radius: 2%;
+    flex-shrink: 0;
+    /*    border-radius: Global/Radius/medium;*/
+}
+
+.Aspect_Ratio {
+    width: 156px;
+    height: 195px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    background-image: url('/images/2nd_pic.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: rotate(0);
+    border-radius: 2%;
+    /*    border-radius: Global/Radius/medium;*/
+}
+
+/*.Spacer_Devider {
+    width: 448px;
+    height: 4.001999855041504px;
+    opacity: 1;
+    gap: 8px;
+}*/
+
+
+
+.Spacer_Devider {
+    width: 448px;
+    height: 4px;
+    opacity: 1;
+    gap: 8px;
+    background: #CCCCCC33;
+}
+
+
+
+
+
+.Opening_Hours {
+    width: 448px;
+    height: 232px;
+    opacity: 1;
+    gap: 8px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.OPning_Text_Stack {
+    width: 416px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.Opening_Text {
+    width: 350px;
+    height: 24px;
+    opacity: 1;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Opening {
+    font-family: Nunito;
+    font-weight: 700;
+    /*    font-style: Bold;
+    font-size: Font Size/title;
+    leading-trim: NONE;
+    line-height: Line-height/title;
+    letter-spacing: Letter-spacing/title;*/
+    vertical-align: middle;
+    color: #000000;
+}
+
+.Pricing_list {
+    width: 416px;
+    height: 168px;
+    opacity: 1;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Pricing_list_Content {
+    width: 416px;
+    height: 48px;
+    opacity: 1;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Chips_group {
+    width: 416px;
+    height: 32px;
+    opacity: 1;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Chip_Filter1 {
+    width: auto;
+    min-width: 100px;
+    height: 36px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    border-radius: 16px;
+    opacity: 1;
+}
+
+.Chip_Filter2 {
+    width: auto;
+    min-width: 100px;
+    height: 36px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    background: #ffffff;*/
+    background: #D6EAD833;
+    background-blend-mode: multiply;
+    border-radius: 16px;
+    opacity: 1;
+}
+
+
+
+/*.Chip_Filter1 {
+    width: 101px;
+    height: 32px;
+    opacity: 1;
+    padding-right: 3px;
+    padding-left: 3px;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background: #000000;
+}
+*/
+.Chip_Filter1_Content {
+    width: 100px;
+    height: 32px;
+    min-height: 32px;
+    opacity: 1;
+    gap: 4px;
+}
+
+
+.Chip_Filter1_Label {
+    width: 85px;
+    height: 16px;
+    opacity: 1;
+    padding-right: 2px;
+    padding-left: 2px;
+    gap: 8px;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+}
+
+.Chip_Filter_text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    margin: 0; /* h2/p ke default margin hatao */
+    text-align: center;
+}
+
+.Chip_Filter_text1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin: 0; /* h2/p ke default margin hatao */
+    text-align: center;
+}
+
+
+.Pricing_list_Repeat {
+    width: 416px;
+    height: 116px;
+    opacity: 1;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Order_price_item {
+    width: 416px;
+    height: 20px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Order_price_Text {
+    width: 322px;
+    height: 16px;
+    opacity: 1;
+    gap: 8px;
+    color: #00000099;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.Price_block {
+    width: 94px;
+    height: 16px;
+    opacity: 1;
+    gap: 2px;
+    color: #000000;
+    font-weight: 400;
+    vertical-align: middle;
+}
+@media (max-width: 420px) {
+    .mobile-container {
+        width: 100%;
+        border: none;
+        border-radius: 0;
+    }
+}
