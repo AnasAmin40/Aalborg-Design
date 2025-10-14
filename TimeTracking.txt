@@ -1,0 +1,58 @@
+Project: Aalborg Design (Blazor UI Task)
+Developer: Anas Amin
+Total Time Spent: 4 hours
+
+-----------------------------------------
+Approach / Steps Followed
+-----------------------------------------
+
+1. Figma Design Analysis (30 min)
+   - Reviewed layout, spacing, typography, and colors in the provided Figma design.
+   - Understood that the layout follows a mobile-style (single page) structure.
+
+2. Project Setup (15-20 min)
+   - Created new Blazor Server project in Visual Studio.
+   - Removed default Blazor CSS and layout code.
+   - Added Font Awesome CDN for icons.
+
+3. Component Planning (30 min)
+   - Broke down UI into smaller Blazor components:
+     - Header
+     - Main content area
+     - Buttons / icons
+     - Footer
+
+4. HTML & CSS Implementation (2 hours)
+   - Built the page layout manually using pure HTML and CSS.
+   - Used Flexbox and Grid for alignment and spacing.
+   - Implemented a 400px width container to mimic mobile layout.
+   - Applied shadows, borders, and rounded corners similar to Figma design.
+
+5. Final Testing & Adjustments (45 min)
+   - Verified layout on browser.
+   - Fixed padding and color differences.
+   - Ensured the app runs correctly on https://localhost:7216/
+   - Uploaded project to GitHub:
+     https://github.com/AnasAmin40/Aalborg-Design
+
+-----------------------------------------
+Challenges Faced
+-----------------------------------------
+- Matching Figma spacing and typography without Bootstrap or Tailwind took time.
+- Limited icon choices in the free Font Awesome library.
+- Maintaining pixel-perfect alignment on different browsers.
+-----------------------------------------
+Decisions Made
+-----------------------------------------
+- Used plain CSS instead of any framework, as required.
+- Chose solid Font Awesome icons (free version).
+- Focused on clean, readable, and reusable markup.
+
+-----------------------------------------
+Future Improvements (If More Time)
+-----------------------------------------
+- Add light/dark theme toggle.
+- Include simple animations and hover transitions.
+- Make layout responsive for tablet and desktop view.
+- Split CSS into smaller files per component for better maintainability.
+
