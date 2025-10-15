@@ -17,6 +17,9 @@ body {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
+    overflow-x: hidden;
+    max-width: 100%; 
+    box-sizing: border-box;
 }
 
 .VenuesInformation {
@@ -79,43 +82,19 @@ body {
     width: 95px;
     height: 28px;
     opacity: 1;
-    display: flex;
-    flex-direction: column;
 }
 
-.Text {
-    width: 95px;
-    height: 28px;
-    opacity: 1;
-    gap: 8px;
-    display: flex;
-    flex-direction: row;
-}
 
 .branch-name {
     font-family: Nunito;
     font-weight: 900;
     color: #000000;
-    vertical-align: middle;
-}
-
-
-.Description {
-    width: 124px;
-    height: 24px;
-    opacity: 1;
-    display: flex;
-    flex-direction: row;
+margin:5px 0px 0 0;
 }
 
 .DescriptionText {
     font-family: Global/Font family/secondary type;
     font-weight: 400;
-/*    font-style: Regular;
-    font-size: Font Size/body;
-    leading-trim: NONE;
-    line-height: Global/Space/600;
-    letter-spacing: Letter-spacing/body;*/
     vertical-align: middle;
 }
 
@@ -141,24 +120,6 @@ body {
     justify-content:center;
 }
 
-.Neutral_Content {
-    width: 16px;
-    height: 40px;
-    min-height: 40px;
-    opacity: 1;
-    display: flex;
-    flex-direction: row;
-    
-}
-
-.FbxIcon {
-    width: 16px;
-    height: 16px;
-    opacity: 1;
-    display: flex;
-    flex-direction: row;
-}
-
 .Info {
     width: 416px;
     height: 60px;
@@ -175,6 +136,8 @@ body {
     gap: 10px;
     display: flex;
     flex-direction: column;
+    margin:0;
+    padding:10px 0 0 0;
 }
 
 .Center {
@@ -184,6 +147,8 @@ body {
     gap: 4px;
     display: flex;
     flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
 
 .Status {
@@ -192,6 +157,8 @@ body {
     opacity: 1;
     display: flex;
     flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
 
 .Label1 {
@@ -200,6 +167,8 @@ body {
     opacity: 1;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .Label2 {
@@ -208,6 +177,8 @@ body {
     opacity: 1;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -244,6 +215,8 @@ body {
     height: 16px;
     opacity: 1;
     gap: 8px;
+    margin:0;
+    padding:0;
     display: flex;
     flex-direction: row;
 }
@@ -251,13 +224,10 @@ body {
 .Title_open {
     font-family: Nunito Sans;
     font-weight: 700;
-/*    font-style: Bold;
-    font-size: Font Size/details;
-    leading-trim: NONE;
-    line-height: Line-height/details;
-    letter-spacing: Letter-spacing/details;*/
     vertical-align: middle;
     color: #7CDB6B;
+    margin: 0;
+    padding: 0;
 }
 
 .Status_Label_Description {
@@ -275,19 +245,17 @@ body {
     gap: 8px;
     display: flex;
     flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
 
-.Østerågade {
+.PCOntent {
     font-family: Nunito Sans;
     font-weight: 400;
-    /*    font-style: Regular;
-    font-size: Font Size/details;
-    leading-trim: NONE;
-    line-height: Line-height/details;
-    letter-spacing: Letter-spacing/details;*/
     vertical-align: middle;
-    background: #00000099;
-    
+    color: #00000099;
+    margin: 0;
+    padding: 0;
 }
 
 .Info_Buttons {
@@ -300,108 +268,63 @@ body {
 }
 
 .Info_Button1 {
-    width: 151px;
-    height: 32px;
-    opacity: 1;
-    /*    padding-right: Spacing/3x;
-    padding-left: Spacing/3x;
-    border-top-left-radius: Global/Radius/Button/top-left;
-    border-top-right-radius: Global/Radius/Button/top-right;
-    border-bottom-right-radius: Global/Radius/Button/bottom-right;
-    border-bottom-left-radius: Global/Radius/Button/bottom-left;*/
     background: #D6EAD833;
     background-blend-mode: multiply;
     display: flex;
-    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    height: 32px;
+    padding: 0px 0 0 25px;
+    border-radius: 6px;
 }
 
 
 .Info_Button2 {
-    width: 190px;
-    height: 32px;
-    angle: 0 deg;
-    opacity: 1;
-    /*    padding-right: Spacing/3x;
-    padding-left: Spacing/3x;
-    border-top-left-radius: Global/Radius/Button/top-left;
-    border-top-right-radius: Global/Radius/Button/top-right;
-    border-bottom-right-radius: Global/Radius/Button/bottom-right;
-    border-bottom-left-radius: Global/Radius/Button/bottom-left;*/
-    display: flex;
-    flex-direction: row;
     background: #D6EAD833;
     background-blend-mode: multiply;
-}
-
-
-.Info_Button1_Content {
-    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 12px 0 3px;
+    border-radius: 6px;
     height: 32px;
-    min-height: 32px;
-    opacity: 1;
-    gap: 4px;
-    display: flex;
-    flex-direction: row;
+    width: 200px;
 }
 
-.Leading_visuals {
-    width: 16px;
-    height: 16px;
-    opacity: 1;
-    display: flex;
-    flex-direction: row;
+.fa-mobile-screen
+{
+    color: #7CDB6B;
 }
 
-.Info_Button1_Content_Label {
-    width: 115px;
-    height: 16px;
-    opacity: 1;
-    gap: 8px;
-    display: flex;
-    flex-direction: row;
+.fa-at {
+    color: #7CDB6B;
 }
 
 .Number {
     font-family: Nunito Sans;
     font-weight: 400;
-    /*    font-style: Regular;
-    font-size: Font Size/details;
-    leading-trim: NONE;
-    line-height: Line-height/details;
-    letter-spacing: Letter-spacing/details;*/
-    vertical-align: middle;
-    background: #00000099;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #00000099;
+    margin: 0;
+    padding: 0;
 }
 
 .Gmail {
     font-family: Nunito Sans;
     font-weight: 400;
-    /*    font-style: Regular;
-    font-size: Font Size/details;
-    leading-trim: NONE;
-    line-height: Line-height/details;
-    letter-spacing: Letter-spacing/details;*/
-    vertical-align: middle;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
     color: #00000099;
+    margin: 0;
+    padding: 0;
 }
 
-.Info_Button2_Content {
-    width: 174px;
-    height: 32px;
-    min-height: 32px;
-    opacity: 1;
-    gap: 4px;
-    display: flex;
-    flex-direction: row;
-}
 
-.Leading_visuals2 {
-    width: 16px;
-    height: 16px;
-    display: flex;
-    flex-direction: row;
-    opacity: 1;
-}
 
 .Info_Button1_Content_Label2 {
     width: 154px;
@@ -412,20 +335,12 @@ body {
     gap: 8px;
 }
 
-
-
 .Info_Button3 {
     width: 32px;
     height: 32px;
     display: flex;
     flex-direction: row;
     opacity: 1;
-    /*    padding-right: Spacing/3x;
-    padding-left: Spacing/3x;
-    border-top-left-radius: Global/Radius/Button/top-left;
-    border-top-right-radius: Global/Radius/Button/top-right;
-    border-bottom-right-radius: Global/Radius/Button/bottom-right;
-    border-bottom-left-radius: Global/Radius/Button/bottom-left;*/
 }
 
 .Info_Button3_Content {
@@ -437,35 +352,6 @@ body {
     display: flex;
     flex-direction: row;
 }
-
-.Leading_visuals3 {
-    width: 16px;
-    height: 16px;
-    display: flex;
-    flex-direction: row;
-    opacity: 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -491,9 +377,8 @@ body {
     background-size: cover;
     background-position: center;
     transform: rotate(0);
-    border-radius: 2%;
+    border-radius: 10px;
     flex-shrink: 0;
-    /*    border-radius: Global/Radius/medium;*/
 }
 
 .Aspect_Ratio {
@@ -507,17 +392,7 @@ body {
     background-position: center;
     transform: rotate(0);
     border-radius: 2%;
-    /*    border-radius: Global/Radius/medium;*/
 }
-
-/*.Spacer_Devider {
-    width: 448px;
-    height: 4.001999855041504px;
-    opacity: 1;
-    gap: 8px;
-}*/
-
-
 
 .Spacer_Devider {
     width: 448px;
@@ -526,10 +401,6 @@ body {
     gap: 8px;
     background: #CCCCCC33;
 }
-
-
-
-
 
 .Opening_Hours {
     width: 448px;
@@ -560,21 +431,18 @@ body {
 
 .Opening {
     font-family: Nunito;
-    font-weight: 700;
-    /*    font-style: Bold;
-    font-size: Font Size/title;
-    leading-trim: NONE;
-    line-height: Line-height/title;
-    letter-spacing: Letter-spacing/title;*/
+       font-weight: 500;
     vertical-align: middle;
     color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
 .Pricing_list {
     width: 416px;
     height: 168px;
     opacity: 1;
-    gap: 4px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -614,9 +482,8 @@ body {
 
 .Chip_Filter2 {
     width: auto;
-    min-width: 100px;
     height: 36px;
-    padding: 0 12px;
+/*    padding: 0 12px;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -627,21 +494,6 @@ body {
     opacity: 1;
 }
 
-
-
-/*.Chip_Filter1 {
-    width: 101px;
-    height: 32px;
-    opacity: 1;
-    padding-right: 3px;
-    padding-left: 3px;
-    gap: 8px;
-    display: flex;
-    flex-direction: row;
-    border-radius: 15px;
-    background: #000000;
-}
-*/
 .Chip_Filter1_Content {
     width: 100px;
     height: 32px;
@@ -649,7 +501,6 @@ body {
     opacity: 1;
     gap: 4px;
 }
-
 
 .Chip_Filter1_Label {
     width: 85px;
@@ -668,7 +519,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     color: #000;
-    margin: 0; /* h2/p ke default margin hatao */
+    margin: 0; 
     text-align: center;
 }
 
@@ -677,7 +528,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     color: #fff;
-    margin: 0; /* h2/p ke default margin hatao */
+    margin: 0;
     text-align: center;
 }
 
